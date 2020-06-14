@@ -19,11 +19,11 @@ on:
       - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#    types: started
+  watch:
+    types: started
 
 env:
-  REPO_URL: https://github.com/huichen0000/lede
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
